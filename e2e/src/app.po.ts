@@ -5,7 +5,7 @@ export class AppPage {
     return browser.get('/');
   }
 
-  getParagraphText() {
-    return element(by.css('mbs-root h1')).getText();
+  getTitleText() {
+    return element(by.css('mbs-root mat-toolbar span')).getText();
   }
 }
