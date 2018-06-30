@@ -1,5 +1,5 @@
 {
-    "terminal.integrated.env.windows": {
-        "Path": "${cwd}\\..\\node_modules\\node\\bin;${cwd}\\..\\node_modules\\yarn\\bin"
-    }
+    // "terminal.integrated.env.windows": {
+    //     "Path": "${cwd}\\..\\node_modules\\node\\bin;${cwd}\\..\\node_modules\\yarn\\bin"
+    // }
 }
