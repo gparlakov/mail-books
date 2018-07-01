@@ -1,5 +1,44 @@
-<mat-list>
-    <mat-list-item> Books </mat-list-item>
-    <mat-list-item> 1 </mat-list-item>
-    <mat-list-item> 2 </mat-list-item>
-</mat-list>
+<mat-selection-list #books >
+    <mat-list-item>
+        <button mat-button (click)="books.selectAll()">select all</button>
+        <button mat-button (click)="books.deselectAll()">deselect all</button>
+        <button mat-flat-button color="accent">download</button>
+    </mat-list-item>
+    <mat-list-option [checkboxPosition]="before">
+        <img src="/favicon.ico" width="25" height="25"/>
+        <span>Book name - Author  </span>
+    </mat-list-option>
+    <mat-list-option [checkboxPosition]="before">
+        <img src="/favicon.ico" width="25" height="25"/>
+        <span>Book name 1 - Author 1  </span>
+    </mat-list-option>
+    <mat-list-option [checkboxPosition]="before">
+        <img src="/favicon.ico" width="25" height="25"/>
+        <span>Book name 2 - Author 2  </span>
+    </mat-list-option>
+    <mat-list-option [checkboxPosition]="before">
+        <img src="/favicon.ico" width="25" height="25"/>
+        <span>Book name - Author  </span>
+    </mat-list-option>
+    <mat-list-option [checkboxPosition]="before">
+        <img src="/favicon.ico" width="25" height="25"/>
+        <span>Book name 1 - Author 1  </span>
+    </mat-list-option>
+    <mat-list-option [checkboxPosition]="before">
+        <img src="/favicon.ico" width="25" height="25"/>
+        <span>Book name 2 - Author 2  </span>
+    </mat-list-option>
+    <mat-list-option [checkboxPosition]="before">
+        <img src="/favicon.ico" width="25" height="25"/>
+        <span>Book name - Author  </span>
+    </mat-list-option>
+    <mat-list-option [checkboxPosition]="before">
+        <img src="/favicon.ico" width="25" height="25"/>
+        <span>Book name 1 - Author 1  </span>
+    </mat-list-option>
+    <mat-list-option [checkboxPosition]="before">
+        <img src="/favicon.ico" width="25" height="25"/>
+        <span>Book name 2 - Author 2  </span>
+    </mat-list-option>
+</mat-selection-list>
+
