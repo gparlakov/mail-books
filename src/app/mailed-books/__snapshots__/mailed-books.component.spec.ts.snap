@@ -1,0 +1,410 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MailedBooksComponent should create 1`] = `
+<div
+  id="root0"
+  ng-version="6.0.7"
+>
+  <mat-selection-list
+    aria-disabled="false"
+    class="mat-selection-list"
+    role="listbox"
+    tabindex="0"
+  >
+    <mat-list-item
+      class="mat-list-item"
+    >
+      <div
+        class="mat-list-item-content"
+      >
+        <div
+          class="mat-list-item-ripple mat-ripple"
+          mat-ripple=""
+          ng-reflect-disabled="true"
+          ng-reflect-trigger="[object HTMLUnknownElement]"
+        />
+        <div
+          class="mat-list-text"
+        />
+        <button
+          class="mat-button"
+          mat-button=""
+        >
+          <span
+            class="mat-button-wrapper"
+          >
+            select all
+          </span>
+          <div
+            class="mat-button-ripple mat-ripple"
+            matripple=""
+            ng-reflect-centered="false"
+            ng-reflect-disabled="false"
+            ng-reflect-trigger="[object HTMLButtonElement]"
+          />
+          <div
+            class="mat-button-focus-overlay"
+          />
+        </button>
+        <button
+          class="mat-button"
+          mat-button=""
+        >
+          <span
+            class="mat-button-wrapper"
+          >
+            deselect all
+          </span>
+          <div
+            class="mat-button-ripple mat-ripple"
+            matripple=""
+            ng-reflect-centered="false"
+            ng-reflect-disabled="false"
+            ng-reflect-trigger="[object HTMLButtonElement]"
+          />
+          <div
+            class="mat-button-focus-overlay"
+          />
+        </button>
+        <button
+          class="mat-flat-button mat-accent"
+          color="accent"
+          mat-flat-button=""
+          ng-reflect-color="accent"
+        >
+          <span
+            class="mat-button-wrapper"
+          >
+            download
+          </span>
+          <div
+            class="mat-button-ripple mat-ripple"
+            matripple=""
+            ng-reflect-centered="false"
+            ng-reflect-disabled="false"
+            ng-reflect-trigger="[object HTMLButtonElement]"
+          />
+          <div
+            class="mat-button-focus-overlay"
+          />
+        </button>
+      </div>
+    </mat-list-item>
+    <mat-list-option
+      aria-disabled="false"
+      aria-selected="false"
+      class="mat-list-item mat-list-option"
+      role="option"
+      tabindex="-1"
+    >
+      <div
+        class="mat-list-item-content"
+      >
+        <div
+          class="mat-list-item-ripple mat-ripple"
+          mat-ripple=""
+          ng-reflect-disabled="false"
+          ng-reflect-trigger="[object HTMLUnknownElement]"
+        />
+        <mat-pseudo-checkbox
+          class="mat-pseudo-checkbox"
+          ng-reflect-disabled="false"
+          ng-reflect-state="unchecked"
+        />
+        <div
+          class="mat-list-text"
+        >
+          <img
+            height="25"
+            src="/favicon.ico"
+            width="25"
+          />
+          <span>
+            Book name - Author 
+          </span>
+        </div>
+      </div>
+    </mat-list-option>
+    <mat-list-option
+      aria-disabled="false"
+      aria-selected="false"
+      class="mat-list-item mat-list-option"
+      role="option"
+      tabindex="-1"
+    >
+      <div
+        class="mat-list-item-content"
+      >
+        <div
+          class="mat-list-item-ripple mat-ripple"
+          mat-ripple=""
+          ng-reflect-disabled="false"
+          ng-reflect-trigger="[object HTMLUnknownElement]"
+        />
+        <mat-pseudo-checkbox
+          class="mat-pseudo-checkbox"
+          ng-reflect-disabled="false"
+          ng-reflect-state="unchecked"
+        />
+        <div
+          class="mat-list-text"
+        >
+          <img
+            height="25"
+            src="/favicon.ico"
+            width="25"
+          />
+          <span>
+            Book name 1 - Author 1 
+          </span>
+        </div>
+      </div>
+    </mat-list-option>
+    <mat-list-option
+      aria-disabled="false"
+      aria-selected="false"
+      class="mat-list-item mat-list-option"
+      role="option"
+      tabindex="-1"
+    >
+      <div
+        class="mat-list-item-content"
+      >
+        <div
+          class="mat-list-item-ripple mat-ripple"
+          mat-ripple=""
+          ng-reflect-disabled="false"
+          ng-reflect-trigger="[object HTMLUnknownElement]"
+        />
+        <mat-pseudo-checkbox
+          class="mat-pseudo-checkbox"
+          ng-reflect-disabled="false"
+          ng-reflect-state="unchecked"
+        />
+        <div
+          class="mat-list-text"
+        >
+          <img
+            height="25"
+            src="/favicon.ico"
+            width="25"
+          />
+          <span>
+            Book name 2 - Author 2 
+          </span>
+        </div>
+      </div>
+    </mat-list-option>
+    <mat-list-option
+      aria-disabled="false"
+      aria-selected="false"
+      class="mat-list-item mat-list-option"
+      role="option"
+      tabindex="-1"
+    >
+      <div
+        class="mat-list-item-content"
+      >
+        <div
+          class="mat-list-item-ripple mat-ripple"
+          mat-ripple=""
+          ng-reflect-disabled="false"
+          ng-reflect-trigger="[object HTMLUnknownElement]"
+        />
+        <mat-pseudo-checkbox
+          class="mat-pseudo-checkbox"
+          ng-reflect-disabled="false"
+          ng-reflect-state="unchecked"
+        />
+        <div
+          class="mat-list-text"
+        >
+          <img
+            height="25"
+            src="/favicon.ico"
+            width="25"
+          />
+          <span>
+            Book name - Author 
+          </span>
+        </div>
+      </div>
+    </mat-list-option>
+    <mat-list-option
+      aria-disabled="false"
+      aria-selected="false"
+      class="mat-list-item mat-list-option"
+      role="option"
+      tabindex="-1"
+    >
+      <div
+        class="mat-list-item-content"
+      >
+        <div
+          class="mat-list-item-ripple mat-ripple"
+          mat-ripple=""
+          ng-reflect-disabled="false"
+          ng-reflect-trigger="[object HTMLUnknownElement]"
+        />
+        <mat-pseudo-checkbox
+          class="mat-pseudo-checkbox"
+          ng-reflect-disabled="false"
+          ng-reflect-state="unchecked"
+        />
+        <div
+          class="mat-list-text"
+        >
+          <img
+            height="25"
+            src="/favicon.ico"
+            width="25"
+          />
+          <span>
+            Book name 1 - Author 1 
+          </span>
+        </div>
+      </div>
+    </mat-list-option>
+    <mat-list-option
+      aria-disabled="false"
+      aria-selected="false"
+      class="mat-list-item mat-list-option"
+      role="option"
+      tabindex="-1"
+    >
+      <div
+        class="mat-list-item-content"
+      >
+        <div
+          class="mat-list-item-ripple mat-ripple"
+          mat-ripple=""
+          ng-reflect-disabled="false"
+          ng-reflect-trigger="[object HTMLUnknownElement]"
+        />
+        <mat-pseudo-checkbox
+          class="mat-pseudo-checkbox"
+          ng-reflect-disabled="false"
+          ng-reflect-state="unchecked"
+        />
+        <div
+          class="mat-list-text"
+        >
+          <img
+            height="25"
+            src="/favicon.ico"
+            width="25"
+          />
+          <span>
+            Book name 2 - Author 2 
+          </span>
+        </div>
+      </div>
+    </mat-list-option>
+    <mat-list-option
+      aria-disabled="false"
+      aria-selected="false"
+      class="mat-list-item mat-list-option"
+      role="option"
+      tabindex="-1"
+    >
+      <div
+        class="mat-list-item-content"
+      >
+        <div
+          class="mat-list-item-ripple mat-ripple"
+          mat-ripple=""
+          ng-reflect-disabled="false"
+          ng-reflect-trigger="[object HTMLUnknownElement]"
+        />
+        <mat-pseudo-checkbox
+          class="mat-pseudo-checkbox"
+          ng-reflect-disabled="false"
+          ng-reflect-state="unchecked"
+        />
+        <div
+          class="mat-list-text"
+        >
+          <img
+            height="25"
+            src="/favicon.ico"
+            width="25"
+          />
+          <span>
+            Book name - Author 
+          </span>
+        </div>
+      </div>
+    </mat-list-option>
+    <mat-list-option
+      aria-disabled="false"
+      aria-selected="false"
+      class="mat-list-item mat-list-option"
+      role="option"
+      tabindex="-1"
+    >
+      <div
+        class="mat-list-item-content"
+      >
+        <div
+          class="mat-list-item-ripple mat-ripple"
+          mat-ripple=""
+          ng-reflect-disabled="false"
+          ng-reflect-trigger="[object HTMLUnknownElement]"
+        />
+        <mat-pseudo-checkbox
+          class="mat-pseudo-checkbox"
+          ng-reflect-disabled="false"
+          ng-reflect-state="unchecked"
+        />
+        <div
+          class="mat-list-text"
+        >
+          <img
+            height="25"
+            src="/favicon.ico"
+            width="25"
+          />
+          <span>
+            Book name 1 - Author 1 
+          </span>
+        </div>
+      </div>
+    </mat-list-option>
+    <mat-list-option
+      aria-disabled="false"
+      aria-selected="false"
+      class="mat-list-item mat-list-option"
+      role="option"
+      tabindex="-1"
+    >
+      <div
+        class="mat-list-item-content"
+      >
+        <div
+          class="mat-list-item-ripple mat-ripple"
+          mat-ripple=""
+          ng-reflect-disabled="false"
+          ng-reflect-trigger="[object HTMLUnknownElement]"
+        />
+        <mat-pseudo-checkbox
+          class="mat-pseudo-checkbox"
+          ng-reflect-disabled="false"
+          ng-reflect-state="unchecked"
+        />
+        <div
+          class="mat-list-text"
+        >
+          <img
+            height="25"
+            src="/favicon.ico"
+            width="25"
+          />
+          <span>
+            Book name 2 - Author 2 
+          </span>
+        </div>
+      </div>
+    </mat-list-option>
+  </mat-selection-list>
+</div>
+`;

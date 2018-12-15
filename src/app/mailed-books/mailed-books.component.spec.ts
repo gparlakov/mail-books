@@ -23,7 +23,7 @@ describe('MailedBooksComponent', () => {
   });
 
   it('should create', () => {
-    expect(component).toMatchSnapshot();
+    expect(fixture.elementRef.nativeElement).toMatchSnapshot();
 
   });
 });
