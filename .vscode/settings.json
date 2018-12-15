@@ -2,4 +2,15 @@
     // "terminal.integrated.env.windows": {
     //     "Path": "${cwd}\\..\\node_modules\\node\\bin;${cwd}\\..\\node_modules\\yarn\\bin"
     // }
+    "search.exclude": {
+        "**/node_modules": false,
+        "**/bower_components": true
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    }
 }
