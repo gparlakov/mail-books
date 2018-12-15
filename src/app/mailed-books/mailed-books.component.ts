@@ -9,16 +9,14 @@ import { MatSelectionList } from '@angular/material/list';
 export class MailedBooksComponent implements OnInit {
 
     @ViewChild('books')
-    private books: MatSelectionList
+    private books: MatSelectionList;
 
     constructor() { }
 
     ngOnInit() {
-
     }
 
     selectAll() {
         this.books.selectAll();
     }
-
 }
