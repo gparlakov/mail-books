@@ -1,6 +1,8 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MailedBooksComponent } from './mailed-books.component';
+import { MatListModule } from '@angular/material/list';
+import { MatButtonModule } from '@angular/material/button';
 
 describe('MailedBooksComponent', () => {
   let component: MailedBooksComponent;
@@ -8,7 +10,8 @@ describe('MailedBooksComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MailedBooksComponent ]
+      declarations: [ MailedBooksComponent ],
+      imports: [MatButtonModule, MatListModule]
     })
     .compileComponents();
   }));

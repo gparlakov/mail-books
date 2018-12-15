@@ -2,6 +2,7 @@ import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MailedBooksModule } from './mailed-books/mailed-books.module';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -11,7 +12,8 @@ describe('AppComponent', () => {
       ],
       imports: [
         BrowserAnimationsModule,
-        MatToolbarModule
+        MatToolbarModule,
+        MailedBooksModule
       ]
     }).compileComponents();
   }));

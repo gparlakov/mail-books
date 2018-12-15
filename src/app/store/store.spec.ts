@@ -6,5 +6,11 @@ describe("BookStore", () => {
     beforeEach(() => {
 
     });
+
+    describe("test the store", () => {
+        it("should", () => {
+            expect(true).toBeTruthy();
+        });
+    });
 });
 
