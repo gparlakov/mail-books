@@ -3,6 +3,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { MailedBooksComponent } from './mailed-books.component';
 import { MatListModule } from '@angular/material/list';
 import { MatButtonModule } from '@angular/material/button';
+import { NO_ERRORS_SCHEMA, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 describe('MailedBooksComponent', () => {
   let component: MailedBooksComponent;
@@ -11,7 +12,8 @@ describe('MailedBooksComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [ MailedBooksComponent ],
-      imports: [MatButtonModule, MatListModule]
+      schemas: [CUSTOM_ELEMENTS_SCHEMA]
+    //   imports: [MatButtonModule, MatListModule]
     })
     .compileComponents();
   }));
