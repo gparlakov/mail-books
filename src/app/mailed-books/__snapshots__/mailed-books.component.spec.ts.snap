@@ -31,7 +31,7 @@ exports[`MailedBooksComponent should create 1`] = `
         width="25"
       />
       <span>
-        Book name - Author
+        Book name - Author 
       </span>
     </mat-list-option>
     <mat-list-option>
@@ -41,7 +41,7 @@ exports[`MailedBooksComponent should create 1`] = `
         width="25"
       />
       <span>
-        Book name 1 - Author 1
+        Book name 1 - Author 1 
       </span>
     </mat-list-option>
     <mat-list-option>
@@ -51,7 +51,7 @@ exports[`MailedBooksComponent should create 1`] = `
         width="25"
       />
       <span>
-        Book name 2 - Author 2
+        Book name 2 - Author 2 
       </span>
     </mat-list-option>
     <mat-list-option>
@@ -61,7 +61,7 @@ exports[`MailedBooksComponent should create 1`] = `
         width="25"
       />
       <span>
-        Book name - Author
+        Book name - Author 
       </span>
     </mat-list-option>
     <mat-list-option>
@@ -71,7 +71,7 @@ exports[`MailedBooksComponent should create 1`] = `
         width="25"
       />
       <span>
-        Book name 1 - Author 1
+        Book name 1 - Author 1 
       </span>
     </mat-list-option>
     <mat-list-option>
@@ -81,7 +81,7 @@ exports[`MailedBooksComponent should create 1`] = `
         width="25"
       />
       <span>
-        Book name 2 - Author 2
+        Book name 2 - Author 2 
       </span>
     </mat-list-option>
     <mat-list-option>
@@ -91,7 +91,7 @@ exports[`MailedBooksComponent should create 1`] = `
         width="25"
       />
       <span>
-        Book name - Author
+        Book name - Author 
       </span>
     </mat-list-option>
     <mat-list-option>
@@ -101,7 +101,7 @@ exports[`MailedBooksComponent should create 1`] = `
         width="25"
       />
       <span>
-        Book name 1 - Author 1
+        Book name 1 - Author 1 
       </span>
     </mat-list-option>
     <mat-list-option>
@@ -111,7 +111,7 @@ exports[`MailedBooksComponent should create 1`] = `
         width="25"
       />
       <span>
-        Book name 2 - Author 2
+        Book name 2 - Author 2 
       </span>
     </mat-list-option>
   </mat-selection-list>
