@@ -1,11 +1,29 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`MailedBooksComponent should have as many books displayed as the number of items returned by shared books service 1`] = `
-<h1
-  data-testid="mailed-books-title"
+<mat-selection-list
+  data-testid="shared-books-list"
 >
-  Shared books
-</h1>
+  <mat-list-item>
+    <button
+      mat-button=""
+    >
+      select all
+    </button>
+    <button
+      mat-button=""
+    >
+      deselect all
+    </button>
+    <button
+      color="accent"
+      mat-flat-button=""
+    >
+      download
+    </button>
+  </mat-list-item>
+  
+</mat-selection-list>
 `;
 
 exports[`MailedBooksComponent should have the title 1`] = `

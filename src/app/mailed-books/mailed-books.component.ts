@@ -1,5 +1,6 @@
-import { Component, OnInit, ViewChild, Injectable } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatSelectionList } from '@angular/material/list';
+import { SharedBooksService } from './shared-books.service';
 
 @Component({
     selector: 'mbs-mailed-books',
@@ -34,10 +35,4 @@ export class SharedBook {
     }
 }
 
-@Injectable()
-export class SharedBooksService {
-    getBy(): SharedBook[] {
-        throw new Error("Method not implemented.");
-    }
 
-}

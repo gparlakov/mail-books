@@ -1,10 +1,10 @@
 <h1 data-testid="mailed-books-title">Shared books</h1>
 <mat-selection-list #books data-testid="shared-books-list">
-    <mat-list-item>
+    <!-- <mat-list-item>
         <button mat-button (click)="books.selectAll()">select all</button>
         <button mat-button (click)="books.deselectAll()">deselect all</button>
         <button mat-flat-button color="accent">download</button>
-    </mat-list-item>
+    </mat-list-item> -->
     <mat-list-option [checkboxPosition]="before" *ngFor='let book of bookItems'>
         <img src="/favicon.ico" width="25" height="25"/>
         <span>{{book.title}} - {{book.author}}</span>

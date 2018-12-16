@@ -1,17 +1,18 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MailedBooksComponent, SharedBooksService, SharedBook } from './mailed-books.component';
+import { MailedBooksComponent, SharedBook } from './mailed-books.component';
+import { SharedBooksService } from "./shared-books.service";
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { By } from '@angular/platform-browser';
 
 describe('MailedBooksComponent', () => {
     let component: MailedBooksComponent;
     let fixture: ComponentFixture<MailedBooksComponent>;
-    let serviceMock = jest.fn<SharedBooksService>();
+    let serviceMock = jest.fn<SharedBooksService>(() => { getBy: jest.fn()() });
 
     beforeEach(async(() => {
         TestBed.configureTestingModule({
-            providers: [{ provide: SharedBooksService, useValue: serviceMock }],
+            providers: [{ provide: SharedBooksService, useValue: serviceMock() }],
             declarations: [MailedBooksComponent],
             schemas: [CUSTOM_ELEMENTS_SCHEMA]
         })
