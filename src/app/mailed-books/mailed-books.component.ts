@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild, Injectable } from '@angular/core';
 import { MatSelectionList } from '@angular/material/list';
 
 @Component({
@@ -11,12 +11,33 @@ export class MailedBooksComponent implements OnInit {
     @ViewChild('books')
     private books: MatSelectionList;
 
-    constructor() { }
+    bookItems: SharedBook[];
+
+    constructor(private sharedBooks: SharedBooksService) { }
 
     ngOnInit() {
+        this.bookItems = this.sharedBooks.getBy();
     }
 
     selectAll() {
         this.books.selectAll();
     }
+}
+
+export class SharedBook {
+    constructor(
+        public readonly title: string,
+        public readonly author: string,
+        public readonly sharedBy: string,
+    ){
+
+    }
+}
+
+@Injectable()
+export class SharedBooksService {
+    getBy(): SharedBook[] {
+        throw new Error("Method not implemented.");
+    }
+
 }
